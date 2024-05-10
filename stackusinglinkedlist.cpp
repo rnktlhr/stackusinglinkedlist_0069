@@ -11,4 +11,7 @@ class Node{
         }
 };
 
-class Stack{};
+class Stack{
+    private: 
+        Node* top;
+};
