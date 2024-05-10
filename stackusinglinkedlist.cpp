@@ -98,6 +98,8 @@ int main(){
                 cout << "Invailid choice. Try again." << endl;
                 break;
         }
+        cout << endl;
     }
+    return 0;
 }
 
