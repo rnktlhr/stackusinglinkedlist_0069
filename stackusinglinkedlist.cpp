@@ -84,13 +84,16 @@ int main(){
                 }
                 break;
             case 3:
-            if(!stack.isEmpty()){
-                stack.peek();
-            }
-            else{
-                cout << "Stack is empty. No top value." << endl;
-            }
-            break;
+                if(!stack.isEmpty()){
+                    stack.peek();
+                }
+                else{
+                    cout << "Stack is empty. No top value." << endl;
+                }
+                break;
+            case 4: 
+                cout << "Exiting program." << endl;
+                break;
         }
     }
 }
