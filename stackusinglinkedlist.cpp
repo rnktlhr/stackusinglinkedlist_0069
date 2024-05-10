@@ -18,4 +18,8 @@ class Stack{
         Stack(){
             top = NULL;
         }
+
+        int push(int value){
+            
+        }
 };
