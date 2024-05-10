@@ -29,6 +29,10 @@ class Stack{
         }
 
         void pop(){
-            
+            if(isEmpty()){
+                cout << "Stack is empty." << endl;
+            }
+            cout << "Popped value: " << top->data << endl;
+            top = top->next;
         }
 };
